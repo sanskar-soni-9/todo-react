@@ -1,0 +1,26 @@
+@import "./index.css";
+
+.list-item {
+  display: flex;
+  margin-bottom: 0.75rem;
+}
+
+.item-input {
+  width: 400px;
+  padding: 0.3rem 0.4rem;
+  font: 500 14px Poppins;
+  outline: none;
+  border: none;
+}
+
+.check-btn {
+  background-color: var(--green-color);
+}
+
+.edit-btn {
+  background-color: var(--blue-color);
+}
+
+input:disabled {
+  background-color: rgba(255, 255, 255, 0.5);
+}

@@ -1,0 +1,23 @@
+@import "./index.css";
+
+form {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 2.5rem;
+}
+
+.task-input {
+  width: 400px;
+  padding: 0.3rem 0.5rem;
+  outline: none;
+  font: 500 16px Poppins;
+  border: none;
+}
+
+.add-btn {
+  background-color: var(--yellow-color);
+}
+
+.del-btn {
+  background-color: var(--red-color);
+}
