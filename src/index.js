@@ -7,6 +7,7 @@ import "./styles/Header.css";
 import "./styles/InputField.css";
 import "./styles/List.css";
 import "./styles/ListItem.css";
+import "./styles/MediaQuery.css";
 
 const root = ReactDOM.createRoot(document.getElementById("root"));
 root.render(
